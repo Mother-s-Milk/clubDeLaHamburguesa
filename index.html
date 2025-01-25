@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club de la hamburguesa</title>
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <meta name="description" content="Disfruta las mejores hamburguesas con ingredientes frescos y un sabor único. Visítanos en el Club de la Hamburguesa.">
+    <meta name="author" content="Franco Vera">
+
+    <meta property="og:title" content="Página del Club de la Hamburguesa">
+    <meta property="og:description" content="Disfruta las mejores hamburguesas con ingredientes frescos y un sabor único. Visítanos en el Club de la Hamburguesa.">
+
+    <meta property="og:image" content="https://scontent.fcrd3-1.fna.fbcdn.net/v/t39.30808-6/449332662_888302419981078_8583233795060162538_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=OjPd0iXLAaMQ7kNvgEfU4Wk&_nc_zt=23&_nc_ht=scontent.fcrd3-1.fna&_nc_gid=A2YoskGmRrsj1S4ruJMkrZ8&oh=00_AYD56Nj2dyfuVj1UN4XcYKS9ucKh6Xax38bPzC_ZnOt-gA&oe=679B11E9">
+
+    <meta property="og:url" content="https://mother-s-milk.github.io/clubDeLaHamburguesa/">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="estilos.css">
+    <script defer src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Rock+Salt&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="preloader">
+        <img src="img/logo.png" alt="Logo del negocio" class="preloader-logo">
+    </div>
+    
+    
+    <header class="header-principal">
+        <nav class="navegacion-principal-container container">
+            <button type="button" id="btn-menu-desplegable" aria-label="Abrir menú"><i class="fa-solid fa-bars" id="icono-menu"></i></button>
+
+            <div class="logo">
+                <a href="#">
+                    <img src="img/logo.png" alt="Logo de la hamburgueseria">
+                </a>
+            </div>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#" tabindex="0">Inicio</a></li>
+                    <li><a href="#hamburguesas" tabindex="0">Hamburguesas</a></li>
+                    <li><a href="#contacto" tabindex="0">Contacto</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+
+    <main>
+        <section class="seccion-hero">
+            <!-- <div class="hero-content container">
+                <p>Hechas con amor, ingredientes<br>
+                frescos y un sabor único.<br>
+                ¿Qué esperás para venir?</p>
+            </div> -->
+        </section>
+
+        <section class="container section">
+            <header class="seccion-header">
+                <h1>-Las más pedidas-</h1>
+            </header>
+            <div class="seccion-destacadas">
+
+                <div class="tarjeta-container">
+                    <div class="tarjeta-hamburguesa tarjeta-mas-pedida">
+                        <div class="imagen-tarjeta">
+                            <span aria-label="Novedad">
+                                Novedad
+                            </span>
+                            <img src="img/hamburguesa.avif" alt="Imagen de Burger cheese">
+                        </div>
+                        <h2>
+                            Burguer cheese
+                        </h2>
+                        <div class="info-hamburguesa">
+                            <p>Carne, cheddar x2, salsa mil islas</p>
+                        </div>
+                        <footer class="acciones-tarjeta">
+                            <button type="button" class="btn-ver-mas">Ver precios</button>
+                        </footer>
+                    </div>
+                    <div class="hamburguesa-precios">
+                        <div>
+                            <span>S</span><span>$8000</span>
+                        </div>
+                        <div>
+                            <span>D</span><span>$10500</span>
+                        </div>
+                        <div>
+                            <span>T</span><span>$12500</span>
+                        </div>
+                        <div>
+                            <span>C</span><span>$14500</span>
+                        </div>
+                        <button type="button" class="btn-ver-menos">Ver menos</button>
+                    </div>
+                </div>
+
+                <div class="tarjeta-container">
+                    <div class="tarjeta-hamburguesa tarjeta-mas-pedida">
+                        <div class="imagen-tarjeta">
+                            <span aria-label="Novedad">
+                                Detonadora
+                            </span>
+                            <img src="img/hamburguesa.avif" alt="Imagen de Burger cheese">
+                        </div>
+                        <h2>
+                            Burguer bacon
+                        </h2>
+                        <div class="info-hamburguesa">
+                            <p>Carne, cheddar x2, bacon, cebolla caramelizada, ketchup</p>
+                        </div>
+                        <footer class="acciones-tarjeta">
+                            <button type="button" class="btn-ver-mas">Ver precios</button>
+                        </footer>
+                    </div>
+                    <div class="hamburguesa-precios">
+                        <div>
+                            <span>S</span><span>$9000</span>
+                        </div>
+                        <div>
+                            <span>D</span><span>$11500</span>
+                        </div>
+                        <div>
+                            <span>T</span><span>$13500</span>
+                        </div>
+                        <div>
+                            <span>C</span><span>$15500</span>
+                        </div>
+                        <button type="button" class="btn-ver-menos">Ver menos</button>
+                    </div>
+                </div>
+
+                <div class="tarjeta-container">
+                    <div class="tarjeta-hamburguesa tarjeta-mas-pedida">
+                        <div class="imagen-tarjeta">
+                            <span aria-label="Novedad">
+                                Liviana
+                            </span>
+                            <img src="img/hamburguesa.avif" alt="Imagen de Burger cheese">
+                        </div>
+                        <h2>
+                            Cuarto de libra
+                        </h2>
+                        <div class="info-hamburguesa">
+                            <p>Carne, cheddar x2, pepinillos, cebolla en cubitos, ketchup, mostaza</p>
+                        </div>
+                        <footer class="acciones-tarjeta">
+                            <button type="button" class="btn-ver-mas">Ver precios</button>
+                        </footer>
+                    </div>
+                    <div class="hamburguesa-precios">
+                        <div>
+                            <span>S</span><span>$9500</span>
+                        </div>
+                        <div>
+                            <span>D</span><span>$11000</span>
+                        </div>
+                        <button type="button" class="btn-ver-menos">Ver menos</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="divisor-container">
+            <hr class="divisor">
+        </div>
+            
+        <section class="container section animation-section" id="hamburguesas">
+            <header class="seccion-header">
+                <h1>-Carta-</h1>
+            </header>
+            <div class="seccion-carta">
+                <section class="grid-carta" id="grid-carta">
+                </section>
+            </div>
+        </section>
+
+        <div class="divisor-container">
+            <hr class="divisor">
+        </div>
+
+        <section class="container section animation-section" id="contacto">
+            <header class="seccion-header">
+                <h1>Contacto</h1>
+            </header>
+            <main class="seccion-contacto">
+                <div class="info-contacto-container">
+                    <div class="info-contacto">
+                        <span><i class="fa-solid fa-phone"></i><p>297-4047992</p></span>
+                        <span><i class="fa-solid fa-envelope"></i><p>clubdelahamburguesa@gmail.com</p></span>
+                        <span><i class="fa-solid fa-location-dot"></i><p>Av. Eva Peron 507</p></span>
+                    </div>
+                    <div class="formulario-contacto">
+                        <form action="">
+                            <input type="text" name="" id="" placeholder="Nombre">
+                            <input type="email" placeholder="Correo electronico">
+                            <textarea name="" id="" placeholder="Mensaje"></textarea>
+                            <button type="button">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2749.328552670809!2d-67.51924662367217!3d-46.442186671106825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbde5df0017a993f7%3A0x2f4f1f216c564a50!2sClub%20De%20La%20Hamburguesa!5e0!3m2!1ses-419!2sar!4v1737811535594!5m2!1ses-419!2sar" width="" height="" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </main>
+        </section>
+    </main>
+
+    <footer class="footer-principal">
+        <div class="info-contacto-footer-container container">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/logo.png" alt="Logo del Club de la Hamburguesa">
+                </a>
+            </div>
+            <div class="info-contacto-footer">
+                <div>
+                    <p>297-4047992</p>
+                    <p>clubdelahamburguesa@gmail.com</p>
+                    <p>Av. Eva Peron 507</p>
+                </div>
+                <div class="redes-sociales-footer">
+                    <ul>
+                        <li><a href="https://www.instagram.com/clubdelahamburguesa1/?hl=es" aria-label="Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/p/Club-de-la-hamburguesa-100064039841494/" aria-label="Facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

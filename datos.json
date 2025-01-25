@@ -1,0 +1,177 @@
+{
+  "hamburguesas": [
+    {
+      "id": 1,
+      "nombre": "Burguer cheese",
+      "descripcion": "Carne, cheddar x2, salsa mil islas",
+      "precio": 8000,
+      "imgPath": "img/hamburguesa.avif",
+      "tamanios": [
+        {
+          "id": 1,
+          "nombre": "S",
+          "precio": 8000
+        },
+        {
+          "id": 2,
+          "nombre": "D",
+          "precio": 10500
+        },
+        {
+          "id": 3,
+          "nombre": "T",
+          "precio": 12500
+        },
+        {
+          "id": 4,
+          "nombre": "C",
+          "precio": 14500
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Burguer bacon",
+      "descripcion": "Carne, cheddar x2, bacon, cebolla caramelizada, ketchup",
+      "precio": 9000,
+      "imgPath": "img/hamburguesa.avif",
+      "tamanios": [
+        {
+          "id": 1,
+          "nombre": "S",
+          "precio": 9000
+        },
+        {
+          "id": 2,
+          "nombre": "D",
+          "precio": 11500
+        },
+        {
+          "id": 3,
+          "nombre": "T",
+          "precio": 13500
+        },
+        {
+          "id": 4,
+          "nombre": "C",
+          "precio": 15500
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Cuarto de libra",
+      "descripcion": "Carne, cheddar x2, pepinillos, cebolla en cubitos, ketchup, mostaza",
+      "precio": 9500,
+      "imgPath": "img/hamburguesa.avif",
+      "tamanios": [
+        {
+          "id": 1,
+          "nombre": "S",
+          "precio": 9500
+        },
+        {
+          "id": 2,
+          "nombre": "D",
+          "precio": 11000
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Americana",
+      "descripcion": "Carne, cheddar x2, bacon, pepinillos, ketchup",
+      "precio": 9500,
+      "imgPath": "img/hamburguesa.avif",
+      "tamanios": [
+        {
+          "id": 1,
+          "nombre": "S",
+          "precio": 9500
+        },
+        {
+          "id": 2,
+          "nombre": "D",
+          "precio": 11000
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Palta paradise club",
+      "descripcion": "Carne, cheddar x2, bacon, palta, cebolla en cubitos, tomate",
+      "precio": 10500,
+      "imgPath": "img/hamburguesa.avif",
+      "tamanios": [
+        {
+          "id": 1,
+          "nombre": "S",
+          "precio": 10500
+        },
+        {
+          "id": 2,
+          "nombre": "D",
+          "precio": 12500
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Clásica",
+      "descripcion": "Carne, queso tybo, jamón cocido, lechuga, tomate,mayonesa",
+      "precio": 9500,
+      "imgPath": "img/hamburguesa.avif",
+      "tamanios": [
+        {
+          "id": 1,
+          "nombre": "S",
+          "precio": 9500
+        },
+        {
+          "id": 2,
+          "nombre": "D",
+          "precio": 11000
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Argentina",
+      "descripcion": "Carne, queso tybo, jamón cocido, cebolla morada, mayonesa",
+      "precio": 9500,
+      "imgPath": "img/hamburguesa.avif",
+      "tamanios": [
+        {
+          "id": 1,
+          "nombre": "S",
+          "precio": 9500
+        },
+        {
+          "id": 2,
+          "nombre": "D",
+          "precio": 11000
+        }
+      ]
+    }
+  ],
+  "hamburguesasEstilos": [
+    "Clásicas",
+    "Dobles",
+    "Especiales",
+    "Detonadoras",
+    "Livianas",
+    "Veganas"
+  ],
+  "bebidas": [
+    {
+      "id": 1,
+      "nombre": "Lúpulo Salvaje",
+      "descripcion": "Una IPA (Indian Pale Ale) con un sabor amargo y tropical.",
+      "precio": 250,
+      "amargor": 60,
+      "alcohol": 6.5,
+      "categoria": "IPA",
+      "imgPath": "img/imgReferencia.jpg"
+      }
+  ]
+}
