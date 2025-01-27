@@ -48,7 +48,7 @@ let cartaController = {
             });
 
             tarjetaHamburguesa += `
-                        <button type="button" class="btn-ver-menos">Ver menos</button>
+                        <button type="button" class="btn-ver-menos">Volver</button>
                     </div>
                 </div>
             `;
