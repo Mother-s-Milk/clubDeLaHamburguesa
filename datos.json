@@ -5,7 +5,7 @@
       "nombre": "Burguer cheese",
       "descripcion": "Carne, cheddar x2, salsa mil islas",
       "precio": 8000,
-      "imgPath": "img/hamburguesa.avif",
+      "imgPath": "img/cheese.jpg",
       "tamanios": [
         {
           "id": 1,
@@ -34,7 +34,7 @@
       "nombre": "Burguer bacon",
       "descripcion": "Carne, cheddar x2, bacon, cebolla caramelizada, ketchup",
       "precio": 9000,
-      "imgPath": "img/hamburguesa.avif",
+      "imgPath": "img/bacon.jpg",
       "tamanios": [
         {
           "id": 1,
@@ -63,7 +63,7 @@
       "nombre": "Cuarto de libra",
       "descripcion": "Carne, cheddar x2, pepinillos, cebolla en cubitos, ketchup, mostaza",
       "precio": 9500,
-      "imgPath": "img/hamburguesa.avif",
+      "imgPath": "img/cuarto.jpg",
       "tamanios": [
         {
           "id": 1,
@@ -82,7 +82,7 @@
       "nombre": "Americana",
       "descripcion": "Carne, cheddar x2, bacon, pepinillos, ketchup",
       "precio": 9500,
-      "imgPath": "img/hamburguesa.avif",
+      "imgPath": "img/americana.jpg",
       "tamanios": [
         {
           "id": 1,
@@ -101,7 +101,7 @@
       "nombre": "Palta paradise club",
       "descripcion": "Carne, cheddar x2, bacon, palta, cebolla en cubitos, tomate",
       "precio": 10500,
-      "imgPath": "img/hamburguesa.avif",
+      "imgPath": "img/palta.webp",
       "tamanios": [
         {
           "id": 1,
@@ -120,7 +120,7 @@
       "nombre": "Clásica",
       "descripcion": "Carne, queso tybo, jamón cocido, lechuga, tomate,mayonesa",
       "precio": 9500,
-      "imgPath": "img/hamburguesa.avif",
+      "imgPath": "img/clasica.jpg",
       "tamanios": [
         {
           "id": 1,
@@ -139,7 +139,7 @@
       "nombre": "Argentina",
       "descripcion": "Carne, queso tybo, jamón cocido, cebolla morada, mayonesa",
       "precio": 9500,
-      "imgPath": "img/hamburguesa.avif",
+      "imgPath": "img/argentina.jpg",
       "tamanios": [
         {
           "id": 1,

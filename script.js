@@ -24,7 +24,7 @@ let cartaController = {
                 <div class="tarjeta-container">
                     <div class="tarjeta-hamburguesa tarjeta-carta">
                         <div class="imagen-tarjeta">
-                            <span aria-label="Novedad">Novedad</span>
+                            <!--<span aria-label="Novedad">Novedad</span>-->
                             <img src="${hamburguesa.imgPath}" alt="${hamburguesa.nombre}" loading="lazy">
                         </div>
                         <h2>${hamburguesa.nombre}</h2>
