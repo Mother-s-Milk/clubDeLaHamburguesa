@@ -526,6 +526,10 @@ button {
         border-radius: 7.5px;/*15*/
     }
 
+    .hamburguesa-precios {
+        border-radius: 7.5px;
+    }
+
     .imagen-tarjeta img {
         border-radius: 7.5px;/*15*/
     }
